@@ -1,3 +1,7 @@
+package src;
+
+import src.TFigure;
+
 import java.awt.*;
 public class TQuadrangle extends TFigure {
     protected int x2,x3,x4,y2,y3,y4;

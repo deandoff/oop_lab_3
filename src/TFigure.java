@@ -1,3 +1,7 @@
+package src;
+
+import src.Point;
+
 import javax.swing.*;
 abstract class TFigure extends JPanel {
     private final Point TPoint = new Point();

@@ -1,3 +1,5 @@
+package src;
+
 import java.awt.*;
 public class TCircle extends TFigure {
     protected int r1, r2;

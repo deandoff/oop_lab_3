@@ -1,3 +1,7 @@
+package src;
+
+import src.TQuadrangle;
+
 import java.awt.*;
 
 public class TRomb extends TQuadrangle {

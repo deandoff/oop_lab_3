@@ -1,3 +1,7 @@
+package src;
+
+import src.TQuadrangle;
+
 import java.awt.*;
 public class TTrapeze extends TQuadrangle {
     public TTrapeze(int x, int y, int w, int h, int c, Color color) {

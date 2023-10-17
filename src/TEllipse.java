@@ -1,3 +1,5 @@
+package src;
+
 import java.awt.*;
 public class TEllipse extends TCircle {
     public TEllipse(int x, int y, int r1, int r2, Color color) {
