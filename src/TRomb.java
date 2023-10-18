@@ -14,7 +14,7 @@ public class TRomb extends TQuadrangle {
         y4 = y + h/2;
         this.color=color;
     }
-    public void chSize(int x, int y) {
+    public void ChangeSize(int x, int y) {
         super.Set(super.GetX()+x,super.GetY());
         x3 -= x;
         y2 += y;

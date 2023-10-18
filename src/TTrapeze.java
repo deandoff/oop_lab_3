@@ -11,7 +11,7 @@ public class TTrapeze extends TQuadrangle {
         x4 = x + c; y4 = y3;
         this.color = color;
     }
-    public void chSize(int x, int y) {
+    public void ChangeSize(int x, int y) {
         super.Set(super.GetX()-x,super.GetY()+y);
         x2 += x;
         y2 += y;
