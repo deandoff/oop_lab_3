@@ -15,15 +15,15 @@ public class TEllipse extends TCircle {
     }
 
     public void Turn() {
-        int temp = r;
-        r = r1;
-        r1 = temp;
+        int temp = r1;
+        r1 = r;
+        r = temp;
         this.repaint();
     }
 
     @Override
     public void paintComponent(Graphics component) {
         component.setColor(color);
-        component.drawOval(super.GetX(), super.GetY(), r * 3, r1 * 4);
+        component.drawOval(super.GetX(), super.GetY(), r*2, r1*2);
     }
 }
